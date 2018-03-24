@@ -1,0 +1,15 @@
+{
+  "name": "nuxt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nuxt"
+  },
+  "keywords": [],
+  "author": "“Thiago <thiagopaiva9@gmail.com> (https://github.com/thiagopaiva99)",
+  "license": "ISC",
+  "dependencies": {
+    "nuxt": "^1.4.0"
+  }
+}
