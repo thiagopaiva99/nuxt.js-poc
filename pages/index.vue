@@ -1,16 +1,20 @@
 <template>
   <div>
-    <h1>Welcome!</h1>
-    <nuxt-link to="/about">About page</nuxt-link>
+    <Head />
+    <nuxt-link to="/about">about page</nuxt-link>
 
-    <p><a href="https://github.com/thiagopaiva99">@thiagopaiva99</a></p>
+    <Foot />
   </div>
 </template>
 
 <script>
+import Head from "../components/header"
+import Foot from "../components/footer"
+
 export default {
-  head: {
-    title: "Home page"
+  components: {
+    Head,
+    Foot
   }
-};
+}
 </script>
